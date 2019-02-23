@@ -6,7 +6,8 @@
 
 
 # TODO
-- [ ]boost when some command are installed
+
+- boost when some command are installed
 
 # install
 
