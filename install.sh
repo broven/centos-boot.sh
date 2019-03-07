@@ -24,7 +24,7 @@ install_docker() {
     log "install docker..."
     curl -fsSL https://get.docker.com -o get-docker.sh
     sh get-docker.sh
-     sudo systemctl enable docker.service
+    sudo systemctl enable docker.service
     sudo systemctl start docker.service
 }
 
