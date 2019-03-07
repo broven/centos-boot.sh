@@ -1,8 +1,9 @@
-# Centos boot script
+# Centos boot script for self usage
 
 - git wget
 - docker
 - docker-composer
+- bt panel (with disable firewall)
 
 
 # TODO

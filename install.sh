@@ -7,6 +7,13 @@ log() {
 
 
 # init centos7
+install_bt() {
+    wget -O install.sh http://download.bt.cn/install/install_6.0.sh && bash install.sh
+    echo "Will disable the firewall for fuck sake"
+    systemctl disable firewalld
+    systemctl stop firewalld
+    systemctl status firewalld
+}
 
 
 install_utils() {
@@ -33,6 +40,7 @@ boot() {
     install_utils
     install_docker
     install_docker_composer
+    install_bt
 }
 
 boot
